@@ -1,0 +1,62 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: #000;
+}
+h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+p, div, a, span {
+    line-height: 1.2em;
+}
+
+.header {
+    /*background-color: #0f6674;*/
+    background: rgb(82, 80, 120);
+    background: linear-gradient(90deg, rgba(82, 80, 120, 1) 0%, rgba(68, 140, 144, 1) 51%, rgba(11, 153, 182, 1) 100%);
+}
+
+.photo {
+    margin: 20px 50px;
+    height: 200px;
+}
+
+.round { -moz-border-radius: 100px; /* Firefox */ -webkit-border-radius: 100px; /* Safari, Chrome */ -khtml-border-radius: 100px; /* KHTML */ border-radius: 100px; /* CSS3 */ behavior: url(border-radius.htc); /*IE */ }
+
+.full-name p{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+.fa {
+    padding: 0;
+    padding-top: 2px;
+    position: absolute;
+}
+
+.menu__item {
+    margin-bottom: 10px;
+}
+
+.menu__item a {
+    font-size: 16px;
+    /*font-weight: 700;*/
+    color: #1e2d63;
+    margin: 0px 30px;
+}
+
+.alert {
+    margin-bottom: 5px;
+}
