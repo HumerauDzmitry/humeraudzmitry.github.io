@@ -1,5 +1,5 @@
 body {
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
 }
 
 ul, li {
@@ -21,15 +21,52 @@ p, div, a, span {
     line-height: 1.2em;
 }
 
-.header {
+.background-fill {
     /*background-color: #0f6674;*/
     background: rgb(82, 80, 120);
     background: linear-gradient(90deg, rgba(82, 80, 120, 1) 0%, rgba(68, 140, 144, 1) 51%, rgba(11, 153, 182, 1) 100%);
+
 }
 
+.language a {
+    background-color: transparent;
+    color:#1e2d63;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 15px;
+}
+.language {
+    line-height: 1.0em;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    border-color: transparent;
+}
+
+.nav-tabs .nav-link:hover{
+    border-bottom: none;
+    border-color: transparent;
+}
+
+.nav-tabs .nav-link:focus{
+    border-color: transparent;
+}
+
+.language .nav-link.active {
+    background-color: transparent;
+    border-color: transparent;
+    color:#1e2d63;
+    /*text-decoration: underline;*/
+    border-bottom: solid 1px #1e2d63;
+}
+
+
+
 .photo {
-    margin: 20px 50px;
+    margin: 20px auto;
     height: 200px;
+    display: block;
 }
 
 .round { -moz-border-radius: 100px; /* Firefox */ -webkit-border-radius: 100px; /* Safari, Chrome */ -khtml-border-radius: 100px; /* KHTML */ border-radius: 100px; /* CSS3 */ behavior: url(border-radius.htc); /*IE */ }
@@ -38,7 +75,7 @@ p, div, a, span {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .fa {
     padding: 0;
@@ -52,11 +89,14 @@ p, div, a, span {
 
 .menu__item a {
     font-size: 16px;
-    /*font-weight: 700;*/
     color: #1e2d63;
     margin: 0px 30px;
 }
 
 .alert {
     margin-bottom: 5px;
+}
+
+.title {
+    padding-top: 20px;
 }
