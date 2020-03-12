@@ -14,14 +14,27 @@
 </head>
 <body>
 <header id="header" class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
+    <div class="container-fluid">
+        <div class="row background-fill">
+            <div class="col-md-5">
                 <img src="img/logo.JPG" alt="photo" class="photo round">
             </div>
-            <div class="col-lg-5 ml-auto">
+
+            <div class="col-md-5 ml-auto">
+                <div class="row language">
+                    <div class="col-4 offset-6">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active eng-click" data-toggle="tab" href="#eng-block">eng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ru-click" data-toggle="tab" href="#ru-block">ru</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="full-name">
-                    <p>Гумеров Дмитрий</p>
+                    <p id="full-name">Humerau Dzmitry</p>
                 </div>
 
                 <nav>
@@ -64,185 +77,389 @@
     </div>
 </header>
 
-<section id="objective" class="objective">
-    <div class="container">
-        <div class="col-lg-12">
-            <div class="title">
-                <h2 class="title__main">
-                    Цель
-                </h2>
-                <p class="title__text">
-                    Начать карьеру Java developer.
-                </p>
-                <p class="title__text">
-                    Принимать участие в разработке интересных программных продуктов, работать в команде профессионалов и быть полезным.
-                </p>
-                <p class="title__text">
-                    Постоянно развиваться и повышать свой профессиональный уровень.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="skills" class="skills">
-    <div class="container">
-        <div class="col-lg-12">
-            <div class="title">
-                <h2 class="title__main">
-                    Навыки
-                </h2>
-
-                <div class="alert alert-dark" role="alert">
-                    Java Core
-                </div>
-                <div class="alert alert-dark" role="alert">
-                    Maven
-                </div>
-                <div class="alert alert-dark" role="alert">
-                    Git
-                </div>
-                <div class="alert alert-dark" role="alert">
-                    JUnit
-                </div>
-                <div class="alert alert-dark" role="alert">
-                    Spring Framework
-                </div>
-                <div class="alert alert-dark" role="alert">
-                    Java 8
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="experience" class="experience">
-    <div class="container">
-        <div class="col-lg-12">
-            <div class="title">
-                <h2 class="title__main">
-                    Предыдущая работа
-                </h2>
-                <div class="row">
-                    <div class="col-4">
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="eng-block">
+        <section id="objective" class="objective">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Goal
+                        </h2>
                         <p class="title__text">
-                            Freelance
+                            Work as a Java developer.
                         </p>
-                    </div>
-                    <div class="col-8">
                         <p class="title__text">
-                            Java developer
+                            To participate in developing interesting software products to work in a team of
+                            professionals and be useful.
                         </p>
-                    </div>
-                </div>
-                <p class="title__text">
-                    Проект:<br>
-                    "Портал активных видов туризма и сопутствующих товаров".
-                </p>
-                <p class="title__text">
-                    Мы перешли от WordPress Cms к электронной коммерции и B2B.
-                </p>
-                <p class="title__text">
-                    Используемые технологии:<br>
-                    Spring, Hibernate, JPA, Rest API, Elasticsearch, Apache Kafka, Web Services, Servlets, Jackson, Liquibase, HTML, CSS, SCSS, JavaScript, JUnit, Mockito, SQL, XML, JSON, Maven.
-                </p>
-                <p class="title__text">
-                    Мои достижения:<br>
-                    Написал сервис интеграции с CRM, который позволил бизнесу вести аналитику(которая поможет прогнозировать закупки оборудования для следующих сезонов, а также боле точно оценивать цену на аренду согласно износу) и учет по арендному оборудованию.
-                </p>
-                <p class="title__text">
-                    Обязанности:<br>
-                    - Программирование на java.<br>
-                    - Участие в процессе разработки.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="education" class="education">
-    <div class="container">
-        <div class="col-lg-12">
-            <div class="title">
-                <h2 class="title__main">
-                    Образование
-                </h2>
-                <div class="row">
-                    <div class="col-4">
                         <p class="title__text">
-                            Среднее специальное
-                        </p>
-                    </div>
-                    <div class="col-8">
-                        <p class="title__text">
-                            Гродненский государственный политехнический колледж
+                            To continuously develop and improve their skills.
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-<section id="courses" class="courses">
-    <div class="container">
-        <div class="col-lg-12">
-            <div class="title">
-                <h2 class="title__main">
-                    Курсы
-                </h2>
-                <p class="title__text">
-                    Учебный центр IBA, Java EE developer
-                    <a href="img/certificate.jpg" target="_blank">
-                        (посмотреть)
-                    </a>.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Skills
+                        </h2>
 
-<section id="additional-information" class="additional-information">
-    <div class="container">
-        <div class="col-lg-12">
-            <div class="title">
-                <h2 class="title__main">
-                    Обо мне
-                </h2>
-                <p class="title__text">
-                    Обладаю отличной аналитической подготовкой.
-                </p>
-                <p class="title__text">
-                    Быстро обучаюсь.
-                </p>
-                <p class="title__text">
-                    Неконфликтный, легко нахожу общий язык с людьми.
-                </p>
-                <p class="title__text">
-                    Высокий уровень самостоятельности и ответственности за результат.
-                </p>
+                        <div class="alert alert-dark" role="alert">
+                            Java Core
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Maven
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Git
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            JUnit
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Spring Framework
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Java 8
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-<section id="recommendations" class="recommendations">
-    <div class="container">
-        <div class="col-lg-12">
-            <div class="title">
-                <h2 class="title__main">
-                    Рекомендации
-                </h2>
-                <p class="title__text">
-                    Койнаш Андрей(Team Leader) + 375(25) 741 - 36 -99
-                </p>
-                <p class="title__text">
-                    Сухарев Александр(Owner of Strahu-Net.COM) +79034194124
-                </p>
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Experience
+                        </h2>
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="title__text">
+                                    Freelance
+                                </p>
+                            </div>
+                            <div class="col-8">
+                                <p class="title__text">
+                                    Java developer
+                                </p>
+                            </div>
+                        </div>
+                        <p class="title__text">
+                            Project:<br>
+                            "The portal of active tourism and related products".
+                        </p>
+                        <p class="title__text">
+                            We have moved from WordPress Cms to e-Commerce and B2B.
+                        </p>
+                        <p class="title__text">
+                            Technologies used:<br>
+                            Spring, Hibernate, JPA, Rest API, Elasticsearch, Apache Kafka, Web Services, Servlets,
+                            Jackson,
+                            Liquibase, HTML, CSS, SCSS, JavaScript, JUnit, Mockito, SQL, XML, JSON, Maven.
+                        </p>
+                        <p class="title__text">
+                            My achievements:<br>
+                            Wrote service integration with CRM, which allowed business to run Analytics(which will help
+                            to predict the purchase of equipment for the next seasons and more accurately estimate the
+                            price of the rent according to the depreciation) and accounting for rental equipment.
+                        </p>
+                        <p class="title__text">
+                            Responsibilities:<br>
+                            - Programming in java.<br>
+                            - Participation in the development process.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Education
+                        </h2>
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="title__text">
+                                    Higher
+                                </p>
+                            </div>
+                            <div class="col-8">
+                                <p class="title__text">
+                                    Grodno state Polytechnical College
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Курсы
+                        </h2>
+                        <p class="title__text">
+                            IBA training center, Java EE developer
+                            <a href="img/certificate.jpg" target="_blank">
+                                (watch)
+                            </a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="additional-information" class="additional-information">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            About me
+                        </h2>
+                        <p class="title__text">
+                            Possess excellent analytical training.
+                        </p>
+                        <p class="title__text">
+                            I learn quickly.
+                        </p>
+                        <p class="title__text">
+                            Unconflictive, easily find common language with people.
+                        </p>
+                        <p class="title__text">
+                            A high level of autonomy and responsibility for the result.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations" class="recommendations">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Recommendations
+                        </h2>
+                        <p class="title__text">
+                            Coynash Andrew(Team Leader) + 375(25) 741 - 36 -99
+                        </p>
+                        <p class="title__text">
+                            Sukharev Alexander(Owner of Strahu-Net.COM) +79034194124
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-</section>
+
+
+    <!--   -----------------------------------------------------   -->
+
+
+    <div class="tab-pane fade" id="ru-block">
+        <section id="objective" class="objective">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Цель
+                        </h2>
+                        <p class="title__text">
+                            Работать на должности Java developer.
+                        </p>
+                        <p class="title__text">
+                            Принимать участие в разработке интересных программных продуктов, работать в команде
+                            профессионалов и
+                            быть полезным.
+                        </p>
+                        <p class="title__text">
+                            Постоянно развиваться и повышать свой профессиональный уровень.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Навыки
+                        </h2>
+
+                        <div class="alert alert-dark" role="alert">
+                            Java Core
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Maven
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Git
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            JUnit
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Spring Framework
+                        </div>
+                        <div class="alert alert-dark" role="alert">
+                            Java 8
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Предыдущая работа
+                        </h2>
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="title__text">
+                                    Freelance
+                                </p>
+                            </div>
+                            <div class="col-8">
+                                <p class="title__text">
+                                    Java developer
+                                </p>
+                            </div>
+                        </div>
+                        <p class="title__text">
+                            Проект:<br>
+                            "Портал активных видов туризма и сопутствующих товаров".
+                        </p>
+                        <p class="title__text">
+                            Мы перешли от WordPress Cms к электронной коммерции и B2B.
+                        </p>
+                        <p class="title__text">
+                            Используемые технологии:<br>
+                            Spring, Hibernate, JPA, Rest API, Elasticsearch, Apache Kafka, Web Services, Servlets,
+                            Jackson,
+                            Liquibase, HTML, CSS, SCSS, JavaScript, JUnit, Mockito, SQL, XML, JSON, Maven.
+                        </p>
+                        <p class="title__text">
+                            Мои достижения:<br>
+                            Написал сервис интеграции с CRM, который позволил бизнесу вести аналитику(которая поможет
+                            прогнозировать закупки оборудования для следующих сезонов, а также боле точно оценивать цену
+                            на
+                            аренду согласно износу) и учет по арендному оборудованию.
+                        </p>
+                        <p class="title__text">
+                            Обязанности:<br>
+                            - Программирование на java.<br>
+                            - Участие в процессе разработки.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Образование
+                        </h2>
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="title__text">
+                                    Среднее специальное
+                                </p>
+                            </div>
+                            <div class="col-8">
+                                <p class="title__text">
+                                    Гродненский государственный политехнический колледж
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Курсы
+                        </h2>
+                        <p class="title__text">
+                            Учебный центр IBA, Java EE developer
+                            <a href="img/certificate.jpg" target="_blank">
+                                (посмотреть)
+                            </a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="additional-information" class="additional-information">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Обо мне
+                        </h2>
+                        <p class="title__text">
+                            Обладаю отличной аналитической подготовкой.
+                        </p>
+                        <p class="title__text">
+                            Быстро обучаюсь.
+                        </p>
+                        <p class="title__text">
+                            Неконфликтный, легко нахожу общий язык с людьми.
+                        </p>
+                        <p class="title__text">
+                            Высокий уровень самостоятельности и ответственности за результат.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations" class="recommendations">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 class="title__main">
+                            Рекомендации
+                        </h2>
+                        <p class="title__text">
+                            Койнаш Андрей(Team Leader) + 375(25) 741 - 36 -99
+                        </p>
+                        <p class="title__text">
+                            Сухарев Александр(Owner of Strahu-Net.COM) +79034194124
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -252,5 +469,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
