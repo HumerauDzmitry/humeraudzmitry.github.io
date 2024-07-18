@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {
+	.button {
+		font-size: 10px;
+		width: 125px;
+		height: 20px;
+	}
+
+	.button_main {
+		margin-top: 52px;
+		width: 50%;
+		height: 64px;
+		font-size: 20px;
+	}
+}
