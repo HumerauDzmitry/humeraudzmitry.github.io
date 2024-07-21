@@ -2,6 +2,11 @@
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
+
+body {
+    background: rgb(246, 246, 246);
+}
+
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -12,3 +17,5 @@
 @import 'blocks/header_media';
 @import 'blocks/buttons';
 @import 'blocks/buttons_media';
+@import 'blocks/advantages';
+@import 'blocks/advantages_media';
