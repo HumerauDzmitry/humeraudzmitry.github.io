@@ -1,0 +1,13 @@
+{
+	"editor.cursorStyle": "line",
+	"workbench.colorTheme": "Oceanic Next",
+	"workbench.preferredHighContrastColorTheme": "Monokai",
+	"workbench.statusBar.visible": true,
+	"workbench.tips.enabled": true,
+	"breadcrumbs.icons": true,
+	"editor.occurrencesHighlight": "off",
+	"terminal.integrated.commandsToSkipShell": [
+		"selectionBackground"
+	],
+	"editor.selectionHighlight": true
+}
