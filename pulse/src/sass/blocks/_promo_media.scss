@@ -54,6 +54,16 @@
 
 		&__wrapper {
 			align-items: center;
+			margin: 0 20px;
+			text-align: center;
+			
 		}
+		&__header {
+			margin-top: 40px;
+		}
+		&__icons {
+			width: 100%;
+		}
+
 	}
 }
