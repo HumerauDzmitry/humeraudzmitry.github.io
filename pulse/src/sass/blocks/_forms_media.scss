@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+	.feed-form {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.feed-form {
+		width: 80%;
+		input {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.feed-form {
+		width: 100%;
+	}
+}
