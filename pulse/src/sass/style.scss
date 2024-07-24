@@ -8,9 +8,11 @@ body {
 }
 
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
+
 @import 'blocks/promo';
 @import 'blocks/promo_media';
 @import 'blocks/header';
@@ -25,3 +27,5 @@ body {
 @import 'blocks/titles_media.scss';
 @import 'blocks/forms.scss';
 @import 'blocks/forms_media.scss';
+@import 'blocks/carousel.scss';
+@import 'blocks/carousel_media.scss';
