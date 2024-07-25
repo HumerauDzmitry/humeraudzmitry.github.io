@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+	.footer {
+		&__info {
+			position: absolute;
+			width: 400px;
+			height: 210px;
+			padding: 35px 35px 35px 68px;
+		}
+
+		&__addr {
+			margin-bottom: 22px;
+		}
+
+		&__phone {
+			margin-bottom: 22px;
+		}
+	}
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {}
