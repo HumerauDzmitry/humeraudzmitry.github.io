@@ -1,0 +1,44 @@
+.feedback {
+	&__items {
+		position: relative;
+		padding-left: 230px;
+		margin-bottom: 49px;
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&-item {
+		margin-top: 60px;
+
+		&__title {
+			color: rgb(13, 13, 13);
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 18px;
+			text-align: left;
+		}
+
+		&__subtitle {
+		color: rgb(100, 100, 100);
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 22px;
+		text-align: left;
+		margin-bottom: 63px; 
+		}
+
+		&__txt {
+			color: rgb(13, 13, 13);
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 24px;
+			text-align: left;
+		}
+	}
+
+	
+}
