@@ -10,4 +10,16 @@
 		line-height: 30px;
 		text-align: left;
 	}
+
+	.error {
+		border: 1px solid $main-color;
+	}
+
+	label.error {
+		color:aqua;
+		border: none;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
 }
