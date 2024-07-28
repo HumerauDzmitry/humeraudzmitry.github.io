@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -71,7 +72,7 @@
                     </div>
                 </div>
                 <div class="advantages__card">
-                    <img src="icons/advantages/heart.png" alt="heart">
+                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__card__icon advantages__card__icon_animated">
                     <div class="advantages__card__title">Заботимся о здоровье</div>
                     <div class="advantages__card__text">
                         Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -408,7 +409,7 @@
     <section class="feedback">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="feedback__items">
+            <div class="feedback__items animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <div class="feedback-item">
                     <div class="feedback-item__title">Ирина Иванченко</div>
                     <div class="feedback-item__subtitle">2 полумарафона</div>
@@ -421,7 +422,7 @@
                 </div>
             </div>
             <div class="feedback__items">
-                <div class="feedback-item">
+                <div class="feedback-item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="feedback-item__title">Иван Сёмочкин</div>
                     <div class="feedback-item__subtitle">1 полумарафон</div>
                     <div class="feedback-item__txt">
@@ -434,7 +435,7 @@
                 </div>
             </div>
             <div class="feedback__items">
-                <div class="feedback-item">
+                <div class="feedback-item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="feedback-item__title">Юлия Дашкина</div>
                     <div class="feedback-item__subtitle">2 полумарафона</div>
                     <div class="feedback-item__txt">
@@ -504,6 +505,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -150,6 +150,9 @@ $(document).ready(function(){
 			});
 		}
 	});
-
+  
+  // animations
+	new WOW().init();
+  
 });
 
