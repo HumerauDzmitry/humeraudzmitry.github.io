@@ -126,5 +126,8 @@ $(document).ready(function(){
 		});
 		return false;
 	});
+
+	// animations
+	new WOW().init();
 });
 
