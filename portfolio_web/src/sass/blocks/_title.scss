@@ -1,0 +1,23 @@
+.title {
+	color: rgb(0, 0, 0);
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: left;
+
+	&_fz16 {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	&_fz16 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	&_fz48 {
+		font-size: 48px;
+	}
+}
+
