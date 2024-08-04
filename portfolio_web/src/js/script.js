@@ -9,3 +9,11 @@ hamburger.addEventListener('click', () => {
 closeElem.addEventListener('click', () => {
 	menu.classList.remove('active');
 });
+
+const persents = document.querySelectorAll('.persent'),
+	  lines = document.querySelectorAll('.levels__item__strip .levels__item__strip-front');
+
+console.log(persents);
+persents.forEach( (item, i) => {
+	lines[i].style.width = item.innerHTML;
+})
