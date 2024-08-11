@@ -11,9 +11,10 @@
 		padding: 0 50px;
 		display: grid;
 		grid-template-columns: repeat(2, 370px);
-		grid-template-rows: repeat(2, 44px);
+		grid-template-rows: repeat(2, minmax(44px, auto));
 		grid-auto-rows: 44px;
-		column-gap: 300px;
+		justify-content: space-around;
+		// column-gap: 300px;
 		row-gap: 15px;
 	}
 
