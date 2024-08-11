@@ -95,7 +95,16 @@
         <div class="container">
             <div class="grid-container">
                 <div id="grid_img" class="grid-item">
-                    <img src="img/main_photo.jpg" alt="photo">
+                    <!-- <img srcset="img/main_photo-min.jpg 300w,
+                                img/main_photo.jpg 400w" 
+                        sizes="(max-width:576px) 280px,
+                                (min-width:577px) 400px" 
+                    src="img/main_photo.jpg" alt="photo"> -->
+                    <picture>
+                        <source media="(max-width:576px)" srcset="img/main_photo-min.jpg">
+                        <source media="(min-width:577px)" srcset="img/main_photo.jpg">
+                        <img src="img/main_photo-min" alt="photo">
+                    </picture>
                 </div>
                 <div id="grid_main" class="grid-item">
                     <div class="title title_fz16 promo__subtitle">Про меня</div>
@@ -222,7 +231,6 @@
             <div class="divider"></div>
 
             <div class="skills__wrapper">
-                <!-- 1 -->
                 <div class="skills__item">
                     <div class="skills__item-icon">
                         <img src="icons/skills/html5.svg" alt="html5">
@@ -231,7 +239,6 @@
                     <div class="skills__item-text">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную
                     структуру вашего продукта</div>
                 </div>
-                <!-- 2 -->
                 <div class="skills__item">
                     <div class="skills__item-icon">
                         <img src="icons/skills/css3.svg" alt="CSS3">
@@ -240,7 +247,6 @@
                     <div class="skills__item-text">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается
                     только вашей фантазией!</div>
                 </div>
-                <!-- 3 -->
                 <div class="skills__item">
                     <div class="skills__item-icon">
                         <img src="icons/skills/js.svg" alt="Java Script">
@@ -249,7 +255,6 @@
                     <div class="skills__item-text">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от
                     сервера и многое другое</div>
                 </div>
-                <!-- 4 -->
                 <div class="skills__item">
                     <div class="skills__item-icon">
                         <img src="icons/skills/jquery.svg" alt="Jquery">
@@ -258,7 +263,6 @@
                     <div class="skills__item-text">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы
                     с ней присутствует</div>
                 </div>
-                <!-- 5 -->
                 <div class="skills__item">
                     <div class="skills__item-icon">
                         <img src="icons/skills/react.svg" alt="React">
@@ -267,7 +271,6 @@
                     <div class="skills__item-text">Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши
                     цели</div>
                 </div>
-                <!-- 6 -->
                 <div class="skills__item">
                     <div class="skills__item-icon">
                         <img src="icons/skills/node.js.svg" alt="Node.js">
@@ -276,7 +279,6 @@
                     <div class="skills__item-text">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые
                     пользователь не видит</div>
                 </div>
-                <!-- 7 -->
                 <div class="skills__item">
                     <div class="skills__item-icon">
                         <img src="icons/skills/mongo.db.svg" alt="Mongo.db">
@@ -288,7 +290,6 @@
 
             <div class="levels">
                 <div class="levels__wrapper">
-                    <!-- 1 -->
                      <div class="levels__item">
                         <div class="levels__item__head">
                             <div class="title title_fz14 levels__item-title"">Создание сайтов</div>
@@ -300,7 +301,6 @@
                             <div class="levels__item__strip-front"></div>
                         </div>
                      </div>
-                    <!-- 2 -->
                     <div class="levels__item">
                         <div class="levels__item__head">
                             <div class="title title_fz14 levels__item-title">Создание приложений</div>
@@ -311,7 +311,6 @@
                             <div class="levels__item__strip-front"></div>
                         </div>
                     </div>
-                    <!-- 3 -->
                     <div class="levels__item">
                         <div class="levels__item__head">
                             <div class="title title_fz14 levels__item-title">Работа с данными</div>
@@ -323,7 +322,6 @@
                             <div class="levels__item__strip-front"></div>
                         </div>
                     </div>
-                    <!-- 4 -->
                     <div class=" levels__item">
                         <div class="levels__item__head">
                             <div class="title title_fz14 levels__item-title">Креативность</div>
@@ -334,7 +332,6 @@
                             <div class="levels__item__strip-front"></div>
                         </div>
                     </div>
-                    <!-- 5 -->
                     <div class="levels__item">
                         <div class="levels__item__head">
                             <div class="title title_fz14 levels__item-title"">Создание дизайна</div>
@@ -346,7 +343,6 @@
                             <div class="levels__item__strip-front"></div>
                         </div>
                     </div>
-                    <!-- 6 -->
                     <div class=" levels__item">
                         <div class="levels__item__head">
                             <div class="title title_fz14 levels__item-title">Soft skills</div>
@@ -370,27 +366,21 @@
             <div class="divider"></div>
 
             <div class="portfolio__wrapper">
-                <!-- 1 -->
                 <a href="#" class="portfolio__item">
                     <img src="img/works/uber.jpg" alt="uber">
                 </a>
-                <!-- 2 -->
                 <a href="#" class="portfolio__item">
                     <img src="img/works/pulse.jpg" alt="pulse">
                 </a>
-                <!-- 3 -->
                 <a href="#" class="portfolio__item">
                     <img src="img/works/bread.jpg" alt="bread">
                 </a>
-                <!-- 4 -->
                 <a href="#" class="portfolio__item vertical">
                     <img src="img/works/plans.jpg" alt="plans">
                 </a>
-                <!-- 5 -->
                 <a href="#" class="portfolio__item">
                     <img src="img/works/ipad.jpg" alt="ipad">
                 </a>
-                <!-- 6 -->
                 <a href="#" class="portfolio__item horizontal">
                     <img src="img/works/mac.jpg" alt="mac">
                 </a>
@@ -404,7 +394,6 @@
             <div class="divider"></div>
 
             <div class="price__wrapper">
-                <!-- 1 -->
                  <div class="price__item">
                     <div class="price__item-head">
                         <div class="price__item-head_name">Landing-page</div>
@@ -412,7 +401,6 @@
                     </div>
                     <div class="price__item-descr">Одностраничный сайт для презентации услуг/товаров/...</div>
                  </div>
-                <!-- 2 -->
                 <div class="price__item">
                     <div class="price__item-head">
                         <div class="price__item-head_name">Web-приложение</div>
@@ -420,7 +408,6 @@
                     </div>
                     <div class="price__item-descr">Приложение внутри браузера для лучшего комфорта</div>
                 </div>
-                <!-- 3 -->
                 <div class="price__item">
                     <div class="price__item-head">
                         <div class="price__item-head_name">Корпоративный сайт</div>
@@ -428,7 +415,6 @@
                     </div>
                     <div class="price__item-descr">Сайт для вашего бизнеса или компании</div>
                 </div>
-                <!-- 4 -->
                 <div class="price__item">
                     <div class="price__item-head">
                         <div class="price__item-head_name">Android/IOS Приложение</div>
@@ -436,7 +422,6 @@
                     </div>
                     <div class="price__item-descr">Приложение для смартфона любой ОС</div>
                 </div>
-                <!-- 5 -->
                 <div class="price__item">
                     <div class="price__item-head">
                         <div class="price__item-head_name">Интернет-магазин</div>
@@ -444,7 +429,6 @@
                     </div>
                     <div class="price__item-descr">Инструмент для ваших продаж в сети</div>
                 </div>
-                <!-- 6 -->
                 <div class="price__item">
                     <div class="price__item-head">
                         <div class="price__item-head_name">Дизайн</div>
